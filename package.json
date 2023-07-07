@@ -1,0 +1,30 @@
+{
+  "name": "meroshare",
+  "description": "meroshare automation tool for NEPSE ipo application by @sunil-9",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:test": "NODE_ENV=test next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "docker-compose": "docker-compose up -d",
+    "cypress:open": "yarn cypress open"
+  },
+  "dependencies": {
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "autoprefixer": "^10.4.12",
+    "cypress": "^10.9.0",
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1",
+    "eslint-config-prettier": "^8.5.0",
+    "typescript": "4.8.4"
+  }
+}
